@@ -1,0 +1,11 @@
+.education-grid {
+
+  display: grid;
+  gap: 0.15rem;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  .education-section {
+    margin: 2rem;
+    padding: 1rem;
+  }
+}

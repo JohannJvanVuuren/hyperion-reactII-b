@@ -1,0 +1,28 @@
+/* Global reset*/
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting 1rem = 10px for ease of use */
+html {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background: url('../images/blue-silk.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}

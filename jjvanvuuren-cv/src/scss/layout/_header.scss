@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+
+  .heading-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .profilePic {
+    height: auto;
+    width: 15rem;
+  }
+}

@@ -1,0 +1,15 @@
+.header {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.31);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  box-shadow: 20px 20px 60px $black-shade-mid, -5px -5px 10px $light-shade-mid;
+  margin: 2rem 2rem 4rem 2rem;
+  padding: 1rem;
+
+  .profilePic {
+    border: $primary-blue solid 10px;
+    border-radius: 50%;
+  }
+}

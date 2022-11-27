@@ -1,0 +1,120 @@
+/* Typography of the header component. */
+.header {
+
+  .heading-text {
+    h1 {
+      color: $primary-blue;
+      font-family: 'Comforter Brush', cursive;
+      font-size: 6rem;
+      font-weight: 300;
+      text-align: center;
+      text-shadow: 1px 1px 2px;
+    }
+
+    h2 {
+      color: $secondary-blue;
+      font-size: 1.8rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      color: $secondary-blue;
+      font-size: 1.6rem;
+    }
+  }
+}
+/* Typography of the about section.  */
+.about-section {
+  h2 {
+    color: $primary-blue;
+    font-family: 'Comforter Brush', cursive;
+    text-shadow: 1px 1px 2px;
+    font-size: 3rem;
+    font-weight: 300;
+  }
+
+  p {
+    color: $secondary-blue;
+    font-family: 'Merriweather', serif;
+    font-size: 1.6rem;
+    margin: 1rem;
+  }
+}
+
+/* Typography of the spacer headings.*/
+.spacer-section {
+  h2 {
+    color: $primary-blue;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2.5px;
+    text-shadow: 1px 1px 2px;
+    text-transform: uppercase;
+  }
+}
+/* Typography of the work experience component.*/
+.work-experience-section {
+  h2 {
+    color: $primary-blue;
+    font-family: 'Comforter Brush', cursive;
+    text-shadow: 1px 1px 2px;
+    font-size: 3rem;
+    font-weight: 300;
+  }
+
+  h3 {
+    color: $primary-blue;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: $secondary-blue;
+    font-family: 'Merriweather', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 1rem;
+    text-align: center;
+  }
+}
+
+/* Typography of the education component.*/
+.education-section {
+  h2 {
+    color: $primary-blue;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 1px 1px 2px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    color: $primary-blue;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: $secondary-blue;
+    font-family: 'Merriweather', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 1rem;
+    text-align: center;
+  }
+}
+
+/* Typography of the skills component.*/
+.skills-sections {
+  h2 {
+    color: $secondary-blue;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+}
